@@ -22,7 +22,7 @@ def download_video(url: str, filename: str) -> str:
 # Fungsi untuk perintah /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_message = (
-        "👋 Welcome to YouTube Video Downloader Bot!\n\n"
+        "👋 Welcome to YouTube Video Downloader SatriaDev!\n\n"
         "💡 Kirimkan link video YouTube, dan saya akan mendownloadkannya untuk Anda dalam kualitas HD.\n\n"
     )
     await update.message.reply_text(welcome_message)

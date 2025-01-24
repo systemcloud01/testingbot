@@ -6,7 +6,7 @@ import yt_dlp
 
 # Baca token dan URL dari variabel lingkungan
 TOKEN = os.getenv("BOT_API_TOKEN")
-WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+WEBHOOK_URL = os.getenv("https://markkkshort.onrender.com")
 
 # Inisialisasi FastAPI
 app = FastAPI()
